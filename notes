@@ -1,0 +1,41 @@
+...........
+we're building a CMS 
+Content Management System
+We will split it between public and an admin
+
+Blue print
+
+Public Area                    
+Site Pages
+-Navigation
+-Page Content
+-Read Only
+
+Admin Area
+Login Page
+-Form 
+-Username
+-Password
+Admin Menu
+-Manage Content
+-Manage admins
+-Logout
+Manage admins 
+-Admins 
+Manage Content 
+-Subjects
+-Pages
+Logout 
+-Do logout
+-back to login
+
+Include and require files [include()]
+-libraries and functions 
+-Layout sections: header, footer, navigation,sidebar
+-Reusable sections of code (HTML, PHP, Javascript) 
+
+require() use if the file is essential to the rest of the page
+
+include_once() these also keeps track of when a file is loaded (once)
+
+require_once() won't load in code if you have used it more than once.
